@@ -28,6 +28,10 @@ body{
     background-color: rgb(209, 242, 245);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
+
+#header-img{
+    border-radius: 45%;
+}
 /*.nav-item{
     display: flex;
     flex-direction:row;
@@ -229,9 +233,6 @@ color: rgb( 109, 137, 141)
 .listafooter a{
     font-size: 14px;
 }
-#pricing{
-    /*flex-direction: column;*/
-}
 .produto{
     width: 30%;
     height: 70%;
@@ -284,10 +285,12 @@ color: rgb( 109, 137, 141)
     }
     #logo{
         width: 30%;
+        
 
     }
     #header-img{
-        width: 100%;
+        width: 50%;
+        
     }
     .nav-link{
         font-size: 12px;
