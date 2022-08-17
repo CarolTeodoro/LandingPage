@@ -29,7 +29,7 @@ body{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-#header-img{
+#header.img{
     border-radius: 45%;
 }
 /*.nav-item{
@@ -233,6 +233,12 @@ color: rgb( 109, 137, 141)
 .listafooter a{
     font-size: 14px;
 }
+
+#header-img{
+    width: 60%;
+    border-radius: 50%;
+    
+}
 .produto{
     width: 30%;
     height: 70%;
@@ -253,7 +259,7 @@ color: rgb( 109, 137, 141)
 /*@media screen and (device-width:360px) and (device-height:640px) and (-webkit-device-pixel-ration:2){}*/
 
 /*PARA CELULAR ANTIGOS*/
-@media(max-width:576px){
+@media (max-width:576px){
 
     #header{
         width: 100%;
@@ -290,6 +296,7 @@ color: rgb( 109, 137, 141)
     }
     #header-img{
         width: 50%;
+        border-radius: 50%;
         
     }
     .nav-link{
@@ -387,4 +394,14 @@ color: rgb( 109, 137, 141)
         .copyright{
             font-size: 10px;
         }
+}
+@media (max-width: 380px){
+
+    #header-img {
+        width: 80%;
+    }
+    .social-midia{
+        font-size: 10px;
+    }
+
 }
